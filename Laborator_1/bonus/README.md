@@ -18,6 +18,6 @@
    
     Am construit matricea de adiacenta a grafului regulat astfel: 
     - Validez conditiile de graf regulat: n < degree + 1 || n * degree % 2 != 0
-    - Pentru fiecare nod i de la 1..n, aleg niste vecini random astfel incat acel vecin > i si ma asigur ca oglindesc matricea
+    - Pentru fiecare nod i de la 1..n, aleg niste vecini random astfel incat acel vecin > i (daca vecin <= i ar fi nevoie sa schimb si linia vecinului si s-ar putea sa nu se mai respecte gradul) si ma asigur ca oglindesc matricea
     - Aleg vecini cat timp suma pe linie < gradul dat
     - Daca cumva sunt in imposibilitatea de a mai alege vecini sau suma pe linie > grad, o iau de la capat pana cand construiesc o matrice valida
