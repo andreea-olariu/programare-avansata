@@ -50,7 +50,7 @@ public class Graph {
     }
 
     /**
-     * Compute the shortest path between two given Location objects
+     * Compute the shortest path between two given Location objects using Dijkstra's algorithm
      * @param loc1 A Location object representing the first location
      * @param loc2 A Location object representing the second location
      * @return A BestRouteSolution object representing data about the shortest path
