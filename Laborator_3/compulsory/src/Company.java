@@ -47,6 +47,14 @@ public class Company implements Comparable, Node{
         this.employees = employees;
     }
 
+    /**
+     * Adds a new employee
+     * @param employee An Employee object representing a new employee that needs to be added
+     */
+    public void addEmployee(Employee employee) {
+        employees.add(employee);
+    }
+
     @Override
     public String toString() {
         return "Company: " + this.getUniqueName();
