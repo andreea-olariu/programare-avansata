@@ -62,7 +62,7 @@ public class Company implements Comparable, Node{
 
     @Override
     public int compareTo(Object o) {
-        return this.getUniqueName().compareTo(o.toString());
+        return this.toString().compareTo(o.toString());
     }
 
     @Override

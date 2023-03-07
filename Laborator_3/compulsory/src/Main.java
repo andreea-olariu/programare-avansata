@@ -14,9 +14,12 @@ public class Main {
         network.addUser(person1);
         network.addUser(person2);
         network.addUser(person3);
+        network.addUser(person3);
+        
         network.addUser(company1);
         network.addUser(company2);
         network.addUser(company3);
+        network.addUser(company4);
         network.addUser(company4);
 
         System.out.println(network);

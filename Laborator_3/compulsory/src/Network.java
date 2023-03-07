@@ -35,6 +35,10 @@ public class Network {
      * @param user A Node objects representing the new user that needs to be added
      */
     public void addUser(Node user) {
+        for(Node u : users) {
+            if(u.equalsTo(user))
+                return;
+        }
         users.add(user);
     }
 
