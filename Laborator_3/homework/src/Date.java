@@ -6,6 +6,12 @@ public class Date {
     protected int month;
     protected int year;
 
+    /**
+     * Constructor
+     * @param day An int representing the day
+     * @param month An int representing the month
+     * @param year An int representing the year
+     */
     public Date(int day, int month, int year) {
         this.day = day;
         this.month = month;
