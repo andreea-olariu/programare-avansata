@@ -32,5 +32,4 @@ public interface Node {
     public static int compareNodes(Node n1, Node n2) {
         return n2.computeImportance() - n1.computeImportance();
     }
-
 }
