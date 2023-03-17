@@ -11,7 +11,7 @@ import java.util.*;
 import java.util.stream.IntStream;
 
 public class StudentAllocationProblem {
-    int numberOfInstances = 0;
+    int numberOfInstances;
     private List<Student>  students;
     private Set<Project> projects;
 
@@ -142,6 +142,8 @@ public class StudentAllocationProblem {
 
     public Graph<Object, DefaultEdge> buildGraphJGT() {
         Graph<Object, DefaultEdge> graph = new DefaultUndirectedGraph<>(DefaultEdge.class);
+
+        // add students & projects as vertices
         for(Student stud : this.students) {
             graph.addVertex(stud);
         }
@@ -149,6 +151,7 @@ public class StudentAllocationProblem {
             graph.addVertex(proj);
         }
 
+        // add preferences as edges
         for(Student stud : this.students) {
             for(Project proj : stud.getPreferences())
                 graph.addEdge(stud, proj);
@@ -183,6 +186,7 @@ public class StudentAllocationProblem {
         Set<Object> independentSet = new HashSet<>();
         independentSet.addAll(projects);
         independentSet.addAll(students);
+        // all vertices - min vertex cover = max independent set
         independentSet.removeAll(vertexCover);
         return independentSet;
     }

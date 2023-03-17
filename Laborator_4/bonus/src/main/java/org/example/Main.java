@@ -2,6 +2,7 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
+        // the parameter of the constructor = the number of instances for projects & students
         StudentAllocationProblem problem = new StudentAllocationProblem(20);
         problem.printStudentsWithLessPreferences();
 
