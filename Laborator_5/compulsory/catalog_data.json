@@ -1,0 +1,31 @@
+{
+  "name": "catalog",
+  "documents": [
+      {
+        "path": ".",
+        "id": 1,
+        "name": "doc 1",
+        "tags": {
+          "title": "Ora de Java"
+        }
+      },
+      {
+        "path": ".",
+        "id": 2,
+        "name": "doc 2",
+        "tags": {
+          "author": "Mama"
+        }
+      },
+      {
+        "path": ".",
+        "id": 3,
+        "name": "doc 3"
+      },
+      {
+        "path": ".",
+        "id": 4,
+        "name": "doc 4"
+      }
+    ]
+}
