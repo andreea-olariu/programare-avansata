@@ -1,0 +1,23 @@
+{
+  "name": "catalog",
+  "documents": [
+        {
+          "path": "./documents/doc1.txt",
+          "id":1,
+          "name": "doc1",
+          "tags": {
+            "author": "Andreea",
+            "title": "Dummy doc"
+          }
+        },
+        {
+          "path": "./documents/doc2.txt",
+          "id":2,
+          "name": "doc2",
+          "tags": {
+            "author": "Andreea",
+            "title": "Dummy doc"
+          }
+        }
+    ]
+}
