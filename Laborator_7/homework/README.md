@@ -17,7 +17,6 @@ The commands must be given using the keyboard.
    
    Am creat un thread si logica propiu-zisa am implementat-o in clasa Timekeeper care implementeaza interfata Runnable. Un obiect de acest tip este transmis in constructorul thread-ului daemon.
    In metoda run() am adaugat un while() care este executat atat timp cat proprietatea running este true. Proprietatea running devine false in momentul in care timpul executiei depaseste limita data c proprietate in clasa Timekeeper.
-   
 
 5. At the end of the exploration, determine how many tokens each robot has placed in the matrix.
    
