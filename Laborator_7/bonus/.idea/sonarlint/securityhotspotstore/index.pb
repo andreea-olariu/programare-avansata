@@ -1,0 +1,23 @@
+
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+Y
+)src/main/java/org/example/Timekeeper.java,6/d/6d56be3bd0546dfff575022bbd3bf8337e42b9b0
+T
+$src/main/java/org/example/Robot.java,3/7/37ff80231c07d5dc32cc7b2d23dcb51a680b4d27
+S
+#src/main/java/org/example/Cell.java,5/2/5215923cebb1b4da7fb893088940af53e8504d6d
+]
+-src/main/java/org/example/ExplorationMap.java,c/8/c8a23c8268a956788c3eae7fcc7da4e274fc4405
+[
++src/main/java/org/example/SharedMemory.java,0/a/0aac455c5261cec89232e28b3e60c80c679a263b
+_
+/src/main/java/org/example/ExplorationGraph.java,c/2/c2e87fe172360bc6114cc343863df1bf72fcf7d6
+S
+#src/main/java/org/example/Main.java,0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+Z
+*src/main/java/org/example/Exploration.java,1/5/15253f2fb86291c596d9140f9ae2e1ba20df55b3
+T
+$src/main/java/org/example/Token.java,e/f/effa3f2886b35af1e99be2803d5e2d0546393251
