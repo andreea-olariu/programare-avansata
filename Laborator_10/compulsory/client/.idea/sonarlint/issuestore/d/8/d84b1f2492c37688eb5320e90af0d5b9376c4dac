@@ -1,0 +1,12 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÍóÿÿÿÿÿ8Â¢µ€1
+|
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "command".(šùÂ†8Ã¢µ€1
+\
+java:S1118":Add a private constructor to hide the implicit public one.(¬ùøíÿÿÿÿÿ8×¢µ€1
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(÷¤ŠÖ8ß¯¶€1
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ8º•Ë€1
+T	java:S106)"9Replace this use of System.out or System.err by a logger.(Åê»g8¤îË€1
+U	java:S106,"9Replace this use of System.out or System.err by a logger.(÷£½ğ8á¢µ€1
+L
+java:S1144"/Remove this unused private "getCommand" method.(Çš—ë8¾Ğ»€1
