@@ -1,3 +1,33 @@
 
+B
+data/albumlist.csv,c/2/c23526afb619b34a147b3bcf6c51bebf796f322a
+S
+#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
+d
+4src/test/java/Repositories/AlbumsRepositoryTest.java,2/a/2a2f6e5eaf41551ba1a52ce41dd82ddca1c87857
+\
+,src/main/java/org/example/Models/Artist.java,6/b/6be90ec8a91f19a042c4c7345de567d35e469c28
+[
++src/main/java/org/example/Models/Genre.java,0/a/0a4b25270475f499519115a1e34fe799d4b21ed5
+a
+1src/main/java/org/example/DatabaseOperations.java,3/0/30aa80a4fad502c6723462b4db12f70561d87b25
+k
+;src/main/java/org/example/Repositories/GenreRepository.java,8/8/88da3008a15f4d22318881fcdcaac25788e330fe
+l
+<src/main/java/org/example/Repositories/ArtistRepository.java,c/d/cd59e765b15b8ca672224380a3d847754deb6eb7
+[
++src/main/java/org/example/Models/Album.java,1/1/11d8e6a4e3284b19719790f0ae4f95024de640d6
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+S
+#src/main/java/org/example/Main.java,0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b
+n
+>src/main/java/org/example/Repositories/AbstractRepository.java,4/d/4df1fe66f5c21ef06bd7de12980120875811b803
+l
+<src/main/java/org/example/Repositories/AlbumsRepository.java,0/c/0c01ae6375c455f93f17bb12377d4f973f2a1e9c
+c
+3src/main/java/org/example/DataManipulationTool.java,6/0/60cf08c2a3e4352b3e2022b950da9efc6aff8213

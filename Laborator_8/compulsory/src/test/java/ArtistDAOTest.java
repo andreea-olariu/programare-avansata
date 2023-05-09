@@ -27,7 +27,7 @@ public class ArtistDAOTest {
     @Test
     @DisplayName("Finding the id based on name should work")
     void findByNameTest() throws SQLException {
-        Integer id = 46;
+        Integer id = 10;
         List<Integer> result = Collections.singletonList(artistDAO.findByName("Alternosfera"));
         assertTrue(result.contains(id));
     }

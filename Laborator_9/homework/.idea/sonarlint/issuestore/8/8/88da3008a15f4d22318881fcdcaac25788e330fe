@@ -1,0 +1,7 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ª•Ù‰ÿÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Áå£ùÿÿÿÿ8ş¸ÈŒÿ0
+R
+java:S1128"5Remove this unused import 'org.example.Models.Album'.(Ü±õ¢8ğóÈŒÿ0
+S
+java:S1128"6Remove this unused import 'org.example.Models.Artist'.(ˆªü8ñóÈŒÿ0
