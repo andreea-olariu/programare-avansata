@@ -1,5 +1,7 @@
 
 \
 java:S1854":Remove this useless assignment to local variable "server".(Ëß½¸ûÿÿÿÿ8©žÑ€€1
+L
+java:S2440"*Remove this instantiation of "GameServer".(Ëß½¸ûÿÿÿÿ8­ìñ‚€1
 M
 java:S1481"+Remove this unused "server" local variable.(Ëß½¸ûÿÿÿÿ8¯žÑ€€1
