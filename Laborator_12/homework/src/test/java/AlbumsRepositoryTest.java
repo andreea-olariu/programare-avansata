@@ -1,5 +1,7 @@
-package org.example.cat;
-
+import org.example.cat.Album;
+import org.example.cat.AlbumsRepository;
+import org.example.cat.Artist;
+import org.example.cat.Genre;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

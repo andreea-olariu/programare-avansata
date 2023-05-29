@@ -31,6 +31,7 @@ public class ClassesInfo {
                         try {
                             Class<?> clazz = Class.forName(className, true, clazzLoader);
                             classes.add(clazz);
+                            System.out.println(classDetails(clazz));
                         } catch (ClassNotFoundException e) {
                             System.err.println("Failed to load class: " + className);
                         }
@@ -68,16 +69,20 @@ public class ClassesInfo {
         Random random = new Random();
         List<Integer> params = new ArrayList<>();
 
-//        Class<?>[] paramsType = method.getParameterTypes();
-//
-//        for (var paramType : paramsType) {
-//            if (paramType.getTypeName().equals("int")) {
-//                params.add(random.nextInt(200));
-//            }
-//        }
-//
+        Class<?>[] paramsType = method.getParameterTypes();
+
+        for (var paramType : paramsType) {
+            if (paramType.getTypeName().equals("int")) {
+                params.add(random.nextInt(200));
+            }
+        }
+
         try {
-            method.invoke(null);
+            if(params.size() > 0) {
+                method.invoke(null, params.toArray());
+            } else {
+                method.invoke(null);
+            }
             passed++;
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -115,5 +120,8 @@ public class ClassesInfo {
             }
         }
         System.out.println("\n\n\tS-au trecut: " + passed);
+        System.out.println("\tNu s-au trecut: " + (clazz.getMethods().length - passed));
+
+
     }
 }
